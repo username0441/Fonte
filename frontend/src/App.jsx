@@ -1,8 +1,11 @@
+import { BrowserRouter } from 'react-router-dom';
+import AllComponents from './components/AllComponents';
+
 function App() {
   return (
-    <main id='app'>
-      <h1>Hello Wordl</h1>
-    </main>
+    <BrowserRouter>
+      <AllComponents />
+    </BrowserRouter>
   )
 }
 
