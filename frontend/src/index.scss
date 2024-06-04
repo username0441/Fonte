@@ -14,4 +14,8 @@
     border: 2px solid $orange;
     background-color: $orange-t;
     box-shadow: 0 0 40px $orange-t, 0 0 40px $orange-t;
+
+    &:active {
+        transform: scale(0.7);
+    }
 }

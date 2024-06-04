@@ -1,7 +1,10 @@
+import "./style.scss"
+import About from "../About"
+
 function LandingPage() {
     return (
-        <div>
-            <h1>Hello world</h1>
+        <div id="landing-page-wrapper">
+            <About />
         </div>
     );
 }

@@ -11,7 +11,7 @@ function Navbar() {
                 </Link>
             </div>
             <div className="middle">
-                <Link to={"/about"}>О нас</Link>
+                <Link to={"/"}>О нас</Link>
                 <Link to={"#"}>Команда</Link>
                 <Link to={"#"}>Блог</Link>
                 <Link to={"#"}>Продукты</Link>
