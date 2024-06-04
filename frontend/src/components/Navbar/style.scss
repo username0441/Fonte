@@ -1,15 +1,23 @@
+@import "../../assets/styles/settings";
+
 nav.nav-wrapper {
     display: flex;
     justify-content: space-between;
     align-items: center;
     flex-direction: row;
     gap: 50px;
-    background-color: #333;
+    background-color: $dark;
+    padding: 10px 25px;
+
+    h1 {
+        font-size: 2em;
+    }
 
     a {
         padding: 10px 20px;
         text-decoration: none;
         display: inline-block;
         color: snow;
+        margin: 0 10px;
     }
 }

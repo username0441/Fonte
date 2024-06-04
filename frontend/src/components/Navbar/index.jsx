@@ -17,7 +17,7 @@ function Navbar() {
                 <Link to={"#"}>Контакты</Link>
             </div>
             <div className="right">
-                <button>Войти</button>
+                <button className="warning-btn">Войти</button>
                 <Link to={"#"}>
                     <ins>Рус</ins>
                 </Link>
