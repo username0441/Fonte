@@ -1,13 +1,14 @@
 import { Link } from "react-router-dom";
+import Heading from "../common/Heading";
 import "./style.scss"
 
 function Navbar() {
     return (
         <nav className="nav-wrapper">
             <div className="left">
-                <h1>
-                    <Link to={"/"}>Fonte</Link>
-                </h1>
+                <Link to={"/"}>
+                    <Heading heading={"Fonte"}/>
+                </Link>
             </div>
             <div className="middle">
                 <Link to={"/about"}>О нас</Link>
