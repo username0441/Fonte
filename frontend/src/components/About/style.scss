@@ -22,3 +22,25 @@
         }
     }
 }
+
+
+.div {
+    width: 570px;
+    height: 128px;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 2fr ;
+}
+
+
+.png {
+    float: left;
+}
+
+h2 {
+    margin: 10px;
+}
+
+.p {
+    color: gray;
+}
